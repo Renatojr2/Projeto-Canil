@@ -40,11 +40,26 @@ hr {
     #carouselExampleIndicators {
       margin-top: 80px;
     }
+    .marginTop{
+      flex-direction: column;
+    }
+    .endereco {
+      margin: 0 auto;
+      border-bottom: 2px solid black;
+    }
   }
 
   @media (max-width: 500px) {
     .centro {
      margin-top: -60px;
+    }
+  }
+
+  @media (max-width: 574px) {
+    .marginTop {
+      margin: 30px 50px;
+      max-width: 350px;
+      
     }
   }
 
