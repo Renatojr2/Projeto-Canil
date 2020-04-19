@@ -1,0 +1,26 @@
+.navBar {
+  height: 80px;
+  color: #eee;
+}
+
+.imgSize {
+  height: 100vh;
+}
+
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  background: #000;
+  height: 3px;
+}
+
+.marginTop {
+  margin:50px 0;
+  padding: 10px 0;
+
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
