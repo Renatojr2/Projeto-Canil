@@ -24,3 +24,32 @@ hr {
 
   box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
+
+
+@media (max-width: 990px) {
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin-top: 10px;
+  }
+
+  @media (max-width: 658px) {
+    #carouselExampleIndicators {
+      margin-top: 80px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .centro {
+     margin-top: -60px;
+    }
+  }
+
+
+
+  
+
+}
